@@ -27,3 +27,28 @@
 
 📧  E mail  
 `retaad99@gmao.com`
+
+
+
+---
+# readme file
+
+## home photo .
+![Screenshot-12.png](https://i.postimg.cc/x1QnjSXd/Screenshot-12.png)
+
+![Screenshot-12.png](https://i.postimg.cc/RhKfthYM/Screenshot-12.png)
+
+## about photo .
+
+![Screenshot-13.png](https://i.postimg.cc/QdqsHn7J/Screenshot-13.png)
+
+![Screenshot-13.png](https://i.postimg.cc/Gmh8LXb3/Screenshot-13.png)
+- ### How long did it take you to complete this assignment? And, before you started, how long did you think it would take you to complete this assignment?
+
+##### It took three hours but before starting I thought it would take me five hours
+
+---
+- ### What observations or questions do you have about what you’ve learned so far?
+
+##### no thing 
+.
