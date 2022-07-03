@@ -1,45 +1,124 @@
 <!DOCTYPE html>
 <html>
-<body style=  "background-color:#E8D0D0;">
+<head>
+<meta charset="UTF-8">
+<meta name="description" content="IA Restaurant Homepage">
+<meta name="keywords" content="Restaurant, burger, sandwich, nodels">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>IA Restaurant </title>
+<link rel="icon" type="image/x-icon" href="https://i.postimg.cc/d1yJCTx7/77.png">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+<style>
+body,h1,h2,h3,h4,h5,h6 , button {font-family: "GRADUATE"}
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: #1e1f1c;
     
+}
+li , a , button {
+    font-weight: 500;
+    font-size: 21px;
+    color: aliceblue;
+    text-decoration: none;
 
-    <p style="font-family:GRADUATE">
+}
+button {
+    font-size: 25px;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 3px 5% ;
+}
 
-        <header>
-            <h1 Ibraheem restaurant">Ibraheem restaurant</h1>
-            <nav>
-              <ul>
-                <li>
-                    <a href="index.html">MENU</a> 
-                    <a href="#OUR DISHES">OUR DISHES</a> &emsp;
-                    <a href="about.html">ABOUT</a> &emsp;
-                    <a href="#ORDER NOW">ORDER NOW</a> 
-                </li>
-              </ul>  
-            </nav>
-        </header>
+*logo {
+    cursor: pointer;
+}
+
+.nav__links {
+    list-style: none;}
+
+.nav__links li{
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.nav__links li {
+    transition: all 0.3s ease 0s;
+}
+.nav__links li a:hover {color:orange ;}
+button {
+    padding: 10px 70px;
+}
+button {
+    background-color: orange;
+    border: none;
+    border-radius: 50px;
+    cursor:pointer ;
+    transition: all 0.3s ease 0s;
+}
+
+.contact li { display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 3px 5% ;
+    display: inline-block;
+    padding: 0px 40px;   
+}
+button:hover {background-color: #1e1f1c;}
+main { background-color :rgb(255, 255, 255);
+}
+p {background-color: rgb(255, 255, 255);
+padding-left: 20px;
+padding-bottom: 344px;
+padding-top: 50px;
+font-size: 30px;
+padding-right: 14px;
+
+}
+span {background-color: rgb(255, 255, 255);
+    font-size: 45px;
+    color: red;
+    position: relative;
+    top: 22px;
+padding-left: 20px;
+}
+
+</style>
+
+</head>
+<body>
+
+<header>
+    <a href="index.html" <i class="material-icons" style="font-size:48px;color:rgb(255, 255, 255)" >restaurant</i>
+    </a>
+    <ul class="nav__links">
+        <li> <a href="index.html"> home</a></li>
+        <li> <a href="menu.html">menu</a></li>
+        <li> <a href="">about</a></li>
+    </ul>
+    <a class="cta" href="order_now.html"><button>order now</button></a>
+</header>
+  
+<main>
+  <p>We are a team of professional fast food chefs I'm sure it will be a very nice experience with <span>IA . Restaurant</span></p>
+  </main>
 
 
-        <main>
-            <section1>
-                <input type="text" placeholder="Search..">   
-            </section1>
-        
-            <section2>
-                <img src="https://i.postimg.cc/tg7QSR1Y/My-First-Board-1.jpg" alt="menu and price photo">
-            </section2>
-            
-        </main>
+<footer>
+  <ul class="contact" align="center">
+    <li><a class="ct" href="https://wa.me/+966502760812"> <i class="fa fa-whatsapp" style="font-size:30px;color:rgb(255, 255, 255)"></i> CONECT US ON whatsapp</a></li>
+    <li><a class="ct" href="https://www.google.com/maps/place/%D8%B9%D9%85%D9%91%D8%A7%D9%86%E2%80%AD/data=!4m2!3m1!1s0x151b5fb85d7981af:0x631c30c0f8dc65e8?sa=X&ved=2ahUKEwjq4vKf7Nz4AhXaEEQIHQiOA7sQ8gF6BAgCEAE" > <i class="fa fa-map-marker" style="font-size:30px;color:rgb(255, 255, 255)"></i>
+        AMMAN-JORDAN</a></li>
+    <li><a class="ct" > <i class="fa fa-envelope" style="font-size:25px;color:rgb(255, 255, 255)"></i>
+        <a href="mailto:RETAAD99@GMAIL.COM">RETAAD99@GMAIL.COM</a></a></li>
+  </ul>
+</footer>
 
-        <footer>
-            <p style="font-family:GRADUATE">  
-                <a >📞0786319140</a> &emsp;
-                <a >📍AMMAN-JORDAN</a> &emsp;
-                <a >📧 RETAAD99@GMAIL.COM</a> &emsp;
-            </p>              
-        </footer>
-      
-    </p>    
-    
 </body>
 </html>
