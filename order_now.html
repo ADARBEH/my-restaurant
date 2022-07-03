@@ -10,8 +10,6 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 
-
-
 <style>
 body,h1,h2,h3,h4,h5,h6 , button {font-family: "GRADUATE"}
 * {
@@ -72,7 +70,11 @@ li { display: flex;
     padding: 0px 40px;   
 }
 button:hover {background-color: #1e1f1c;}
-.photo {width:100%;}
+.photo {width:100%;
+height: 50px;}
+.photo1 {width:100%;
+height: 135px;}
+form , main , div ,label ,h1 ,input , textarea {background-color: rgb(255, 255, 255);}
 
 </style>
 </head>
@@ -90,8 +92,59 @@ button:hover {background-color: #1e1f1c;}
 </header>
   
 
-<main>
-  <img class="photo" src="https://i.postimg.cc/T3djxhfm/233.jpg" alt="Italian Trulli">
+<main align="center">
+  <img class="photo" src="https://i.postimg.cc/Z51pHN2C/1-Copy.png"  alt="Italian Trulli">
+  <h1> &nbsp;&nbsp;&nbsp; your order </h1>
+  <form  action="results.html" method="GET">
+    <div>
+      <label for="name">Name</label>
+      <input type="text" name="name" id="name" placeholder="enter your name" required>
+  </div>
+  
+  <div>
+    <label for="phone">Phone</label>
+    <input type="tel" name="phone" id="phone" value="+962" placeholder="700000000" required>
+  </div>
+
+  <div>
+    sandwich
+    <div>
+      <label for="beef">beef</label>
+      <input type="radio" name="sandwich" id="beef" value="beef">
+    </div>
+    <div>
+      <label for="chicken">chicken</label>
+      <input type="radio" name="sandwich" id="chicken" value="chicken">
+    </div>
+  </div>
+
+  <div>
+    Additions on your Food
+    <div>
+      <label for="tomato slices">tomato slices</label>
+      <input type="checkbox" name="tomato slices" id="tomato slices">
+    </div>
+    <div>
+      <label for="lettuce">lettuce</label>
+      <input type="checkbox" name="lettuce" id="lettuce">
+    </div>
+    <div>
+        <label for="sauce">sauce</label>
+        <input type="checkbox" name="sauce" id="sauce">
+      </div>
+  </div>
+  
+  <div>
+    <label for="bio">any note to your order</label>
+    <textarea id="bio" name="bio"></textarea>
+  </div>
+  <input type="hidden" name="hidden" value="hi">
+  
+  <button type="reset">Reset</button>
+  <button type="submit">order now</button>
+</form>
+<img class="photo1" id="1" src="https://i.postimg.cc/Z51pHN2C/1-Copy.png" alt="Italian Trulli">
+
 </main>
 
 <footer>
